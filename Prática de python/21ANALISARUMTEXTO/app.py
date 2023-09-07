@@ -1,0 +1,6 @@
+nome = str(input("DIGITE SEU NOME COMPLETO: "))
+print(f"O SEU NOME EM MAIÚSCULO É {nome.upper()}")
+print(f"O SEU NOME EM MINÚSCULO É {nome.lower()}")
+print(f"O SEU NOME TEM AO TODO {(len(nome) - nome.count(''))} LETRAS")
+separar = nome.split()
+print(f"O SEU PRIMEIRO NOME É {separar[0]} E TEM {nome.find(' ')} LETRAS")
